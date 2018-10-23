@@ -1,8 +1,8 @@
 class Farm  {     
-   private Animal[] aBunchOfAnimals;    
-   public Farm()     {       
-      aBunchOfAnimals = new Animal[3];
-      aBunchOfAnimals[0] = new Cow("cow","moo");
+   private Animal[] aBunchOfAnimals = new Animal[3];    
+   public Farm()     
+   {        
+      aBunchOfAnimals[0] = new NamedCow("cow","Elsie","moo");
       if(Math.random()<.5)           
       aBunchOfAnimals[1] = new Chick("chick","cluck"); 
       else
